@@ -6,7 +6,10 @@ import styles from './welcome.style'
 const Welcome = () => {
   return (
     <View>
-      <Text>Welcome</Text>
+    <View style={styles.container}>
+      <Text style={styles.userName}>Hello</Text>
+      <Text style={styles.welcomeMessage}>Finf your perfect job</Text>
+      </View>
     </View>
   )
 }
